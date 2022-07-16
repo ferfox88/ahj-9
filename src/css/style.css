@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 600px;
+    min-height: 250px;
+    margin: 70px auto 0;
+}
+
+.container-content {
+    padding: 20px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.button {
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background: rgba(47, 140, 202, 0.89);
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background: rgba(28, 160, 248, 0.89);
+}
+
+.button:focus {
+    border: 2px solid rgba(175, 217, 245, 0.89);
+}
+
+.content {
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease 0s;
+    height: 0;
+}
+
+.collapse {
+    height: 150px;
+}
+
+.content p {
+    border: 2px solid rgba(175, 217, 245, 0.89);
+    padding: 10px;
+}
+
+.copy {
+    text-align: end;
+    padding-right: 10px;
+}
